@@ -1,4 +1,5 @@
 """
+Information: https://flask.palletsprojects.com/en/stable/installation/#virtual-environments
 First you must create a project in windows cmd to create a virtual environment.
 
 I did it this way:
@@ -11,7 +12,7 @@ mkdir my-app
 cd my-app
 
 Inside "my-app" enter the following commands in cmd to create within this folder the files necessary for the project's virtual environment:
-py -3 -m venv .venv
+py -3 -m venv venv
 
 Once the previous command is executed, a folder called venv/ should be created. Within this folder there should be the folders "Scripts", "Lib" and "Include" (I recommend checking manually).
 
