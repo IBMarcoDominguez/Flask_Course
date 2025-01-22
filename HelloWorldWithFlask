@@ -16,7 +16,7 @@ py -3 -m venv venv
 
 Once the previous command is executed, a folder called venv/ should be created. Within this folder there should be the folders "Scripts", "Lib" and "Include" (I recommend checking manually).
 
-To run my virtual environment, you must first position your cmc search engine in your project folder, in my case my-app and execute the following command. I use windows:
+To run my virtual environment, you must first position your cmd search engine in your project folder, in my case my-app and execute the following command. I use windows:
 
 The following command activates the virtual environment.
 venv\Scripts\activate
