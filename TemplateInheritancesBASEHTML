@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Bloque de titulo-->
+        <title>Mi sitio web - {% block title %}{% endblock %}</title>
+    </head>
+    <body>
+
+        {% block content%}
+        <!--Bloque de contenido-->
+        {% endblock %}
+
+    </body>
+</html>
