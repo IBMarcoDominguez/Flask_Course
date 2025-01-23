@@ -1,0 +1,16 @@
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/1')
+@app.route('/2')
+def hello1():
+    return '<h1>Hello my name is Marco</h1>'
+@app.route('/hello')
+def hello2():
+    return '<h3>Hello Word</h3>'
+@app.route('/:v')
+def hello3():
+    return '<h5>Chanchito Feliz</h5>'
+
+    
