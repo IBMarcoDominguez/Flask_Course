@@ -35,6 +35,12 @@ app will be the instance of the so-called __name__
 @app.route is the route followed by /
 a function is created to host the information that will be returned from the route.
 """
+
+"""
+For the server to update automatically, use the following command in cmd:
+flask --app hello --debug run
+"""
+
 from flask import Flask
 
 app = Flask(__name__)
